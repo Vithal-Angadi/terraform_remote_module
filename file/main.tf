@@ -1,4 +1,4 @@
-resource "null_resource" "remote-exec" {
+resource "null_resource" "file" {
     connection {
         type="ssh"
         user=var.user_name
